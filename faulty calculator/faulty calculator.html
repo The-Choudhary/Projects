@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .calculator {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            max-width: 200px;
+            margin: 0 auto;
+        }
+        .calculator button {
+            height: 50px;
+            font-size: 24px;
+        }
+        .display {
+            grid-column: span 4;
+            height: 50px;
+            text-align: right;
+            margin: 5px;
+            padding: 5px;
+            border: 1px solid #ccc;
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+    <div class="calculator">
+        <div class="display">0</div>
+        <button>1</button>
+        <button>2</button>
+        <button>3</button>
+        <button>+</button>
+        <button>4</button>
+        <button>5</button>
+        <button>6</button>
+        <button>-</button>
+        <button>7</button>
+        <button>8</button>
+        <button>9</button>
+        <button>*</button>
+        <button>.</button>
+        <button>0</button>
+        <button>=</button>
+        <button>/</button>
+    </div>
+    <script src="falty calc.js"></script>
+</body>
+</html>
