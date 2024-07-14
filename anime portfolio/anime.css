@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+}
+
+ul>li {
+    list-style: none;
+}
+
+.flex {
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#section-1 {
+    overflow: hidden;
+    width: 233px;
+}
+
+.box {
+    border: 1px solid;
+    border-radius: 23px;
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 21px;
+    margin-bottom: 24px;
+}
+
+.left-div-head {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo-name {
+    margin-left: 23px;
+}
+
+.round-box {
+    margin-top: 19px;
+    border-radius: 12px;
+    height: 24px;
+    width: 69px;
+    border: 1px solid;
+}
+
+#article-2 {
+    margin-top: 18px;
+}
+
+.about-img {
+    margin-top: 12px;
+}
+
+#sub-article-2 {
+    margin-top: 23px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Rating {
+    margin-left: 42px;
+}
+
+
+
+
+#section-2 {
+    overflow: hidden;
+    width: 233px;
+}
+
+.small-box {
+    height: 12px;
+    width: 12px;
+    background-color: red;
+    margin: 5px;
+}
+
+.book {
+    margin-left: 22px;
+}
+
+
+#section-3{
+    position: relative;
+    width: 233px;
+}
+.main-img{
+    height: 455px;
+    width: 355px;
+    border-radius: 23px;
+    position: absolute;
+}
+.logo-signature{
+    height: 130px;
+    width: 230px;
+    position: absolute;
+    z-index: 3;
+    bottom: 33px;
+    left: 23px;
+}
+#section4{
+    overflow: hidden;
+    width: 233px;
+}
