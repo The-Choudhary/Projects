@@ -7,6 +7,8 @@
 main {
     display: flex;
     flex-wrap: wrap;
+    height: 100vh;
+    width: 100vw;
 }
 
 ul {
@@ -18,7 +20,9 @@ ul {
 ul>li {
     list-style: none;
 }
-
+img{
+    width: 100%;
+}
 .flex {
 
     display: flex;
@@ -26,8 +30,11 @@ ul>li {
 }
 
 #section-1 {
-    overflow: hidden;
-    width: 233px;
+    width: 20%;
+}
+#article-1{
+
+    height: 70%;
 }
 
 .box {
@@ -42,6 +49,8 @@ ul>li {
 .left-div-head {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    font-size: 26px;
 }
 
 .logo-name {
@@ -49,11 +58,17 @@ ul>li {
 }
 
 .round-box {
+    background-color: #d8d6ff8f;
     margin-top: 19px;
     border-radius: 12px;
     height: 24px;
     width: 69px;
-    border: 1px solid;
+}
+.img-heading{
+    font-weight: bold;
+}
+.left-img{
+    width: 100%;
 }
 
 #article-2 {
@@ -78,8 +93,13 @@ ul>li {
 
 
 #section-2 {
-    overflow: hidden;
-    width: 233px;
+    height: 25%;
+}
+
+.slot-heading{
+
+    font-size: 28px;
+    font-weight: bold;
 }
 
 .small-box {
@@ -96,11 +116,9 @@ ul>li {
 
 #section-3{
     position: relative;
-    width: 233px;
+    width: 50%;
 }
 .main-img{
-    height: 455px;
-    width: 355px;
     border-radius: 23px;
     position: absolute;
 }
@@ -112,7 +130,35 @@ ul>li {
     bottom: 33px;
     left: 23px;
 }
-#section4{
-    overflow: hidden;
-    width: 233px;
+#section-4{
+    width: 30%;
+}
+.right-logo{
+    font-size: 61px;
+    height: 191px;
+    width: 272px;
+}
+.first-graph-box{
+    height: 65px;
+    background: blue;
+    width: 50%;
+}
+
+.second-graph-box{
+    height: 23px;
+    background: green;
+    width: 50%;
+}
+.graph{
+    height: 200px;
+    background: yellow;
+}
+.modes{
+    height: 55px;
+    background: aquamarine;
+}
+.right-img{
+    height: 256px;
+    background: bisque;
+    border-radius: 34px;
 }
